@@ -1,9 +1,9 @@
 services:
   - type: web
     name: kost-api
-    env: node
+    env: node       # Menandakan bahwa ini adalah Node.js environment
     plan: free
     branch: main
-    buildCommand: npm install
-    startCommand: node index.js
+    buildCommand: npm install   # Untuk install dependencies
+    startCommand: node index.js # Ganti dengan file utama kamu (index.js, server.js, dll)
     autoDeploy: true
