@@ -1,0 +1,23 @@
+{
+  "name": "kost-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/effendi123/kost-api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/effendi123/kost-api/issues"
+  },
+  "homepage": "https://github.com/effendi123/kost-api#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
