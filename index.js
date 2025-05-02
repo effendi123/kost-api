@@ -1,7 +1,7 @@
 const express = require('express');
 const app = express();
 
-const PORT = process.env.PORT || 1000; // pakai port dari Render
+const PORT = process.env.PORT || 3000; // pakai port dari Render
 
 app.get('/', (req, res) => {
   res.send('Halo dari server kost!');
