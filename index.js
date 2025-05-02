@@ -1,9 +1,10 @@
 const express = require('express');
 const app = express();
-const PORT = process.env.PORT || 3000;
+
+const PORT = process.env.PORT || 1000; // pakai port dari Render
 
 app.get('/', (req, res) => {
-  res.send('API Rumah Kost Jaya Aktif!');
+  res.send('Halo dari server kost!');
 });
 
 app.listen(PORT, () => {
